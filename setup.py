@@ -2,10 +2,6 @@
 
 from setuptools import find_packages
 from setuptools import setup
-import os
-
-os.system("sudo apt-get install libasound-dev")
-os.system("sudo apt-get install libjack-dev")
 
 setup(
     name='tensor2tensor',
